@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero = () => (
-  <section className="hero">
+  <section id='hero' className="hero">
     <div className="container">
       <h1>
         <span>Hi, I'm Meetpal Singh</span>

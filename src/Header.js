@@ -5,7 +5,7 @@ const Header = ({ toggleMenu }) => (
   <header>
     <div className="container">
       <div className="header-content">
-        <a href="#" className="logo">Meetpal Singh</a>
+        <a href="#hero" className="logo">Meetpal Singh</a>
         <nav className="desktop-nav">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
