@@ -7,12 +7,12 @@ const SkillIcon = () => (
   </svg>
 );
 
-const Skill = ({ name }) => (
+const Skill = ({ skill }) => (
   <div className="skill">
     <div className="skill-icon">
-      <SkillIcon />
+      <skill.icon />
     </div>
-    <p>{name}</p>
+    <p>{skill.name}</p>
   </div>
 );
 
@@ -25,7 +25,7 @@ const Skills = () => {
         <p className="section-title">Technologies I work with</p>
         <div className="skills-grid">
           {skills.map((skill) => (
-            <Skill key={skill} name={skill} />
+            <Skill key={skill} skill={{...skill}} />
           ))}
         </div>
       </div>
