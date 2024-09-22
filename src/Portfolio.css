@@ -27,6 +27,7 @@ h1,
 h2,
 .section-title {
   font-weight: bold;
+  text-align: center;
 }
 
 h1 {
@@ -156,8 +157,8 @@ header {
 .about {
   background-color: #fff;
   padding: 4rem 0;
-  text-align: center;
 }
+
 
 /* Skills section */
 .skills {
